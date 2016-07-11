@@ -4,7 +4,7 @@ require 'selenium-webdriver'
 driver = Selenium::WebDriver.for :firefox
 
 # Waitの指定
-driver.manage.timeouts.page_load = 10
+driver.manage.timeouts.page_load = 30
 
 driver.navigate.to 'https://twitter.com/search-home'
 
